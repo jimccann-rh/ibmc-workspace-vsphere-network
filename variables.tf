@@ -18,15 +18,11 @@ variable "subnet_capacity" {
   default = 128
 }
 
-variable "gateway_id" {
+variable "vlan_id" {
   type = number
 }
 
 variable "datacenter" {
-  type = string
-}
-
-variable "router" {
   type = string
 }
 
