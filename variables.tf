@@ -22,10 +22,6 @@ variable "vlan_id" {
   type = number
 }
 
-variable "datacenter" {
-  type = string
-}
-
 variable "vlan_tags" {
   type = list(string)
 }
