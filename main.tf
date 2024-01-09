@@ -14,8 +14,6 @@ provider "ibm" {
 
 
 resource "ibm_subnet" "portable_subnet" {
-  count = var.vlan_quantity
-
   type       = "Portable"
   private    = true
   ip_version = 4
