@@ -15,7 +15,7 @@ variable "iaas_classic_api_key" {
 
 variable "subnet_capacity" {
   type = number
-  default = 128
+  default = 64
 }
 
 variable "vlan_id" {
