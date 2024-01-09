@@ -39,7 +39,7 @@ It is to create a Portable VLAN for vSphere vCenter to run in. We will also run 
 
 
 You will need to get the current private_vlan via ibmcloud cli
- ibmcloud sl vlan list | grep private
- ibmcloud sl hardware list | grep gateway
+
+ ibmcloud sl vlan list|grep private |cut -d " " -f1
 
 
